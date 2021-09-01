@@ -62,5 +62,7 @@ func main() {
 }
 
 func test() {
-	fmt.Println("this is a test function!")
+	var a int
+	a = 1
+	fmt.Println("this is a test function!, a = ", a)
 }
