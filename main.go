@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"go-rpc/etcd"
 	"go-rpc/lotusMiner"
 	"go-rpc/minerList"
@@ -58,4 +59,8 @@ func main() {
 	root := initMinerList(miners, ratio)
 	conn := etcd.Connect()
 	lotusMiner.Run(conn, root)
+}
+
+func test() {
+	fmt.Println("this is a test function!")
 }
