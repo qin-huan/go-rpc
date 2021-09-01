@@ -43,7 +43,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature/test" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -54,6 +54,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
