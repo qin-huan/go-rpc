@@ -1,0 +1,6 @@
+mysql:
+  host: rm-uf66387h69xbq0heq.mysql.rds.aliyuncs.com,
+  port: 3306,
+  user: user_dev,
+  pass: MysqlDev2020^ddd1dad,
+  database: hanfu
